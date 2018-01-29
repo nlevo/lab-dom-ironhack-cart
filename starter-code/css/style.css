@@ -1,5 +1,17 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  font-size: 20px;
+}
+
 input {
   border: solid 1px black;
+}
+
+#template {
+  
 }
 
 .btn {
@@ -28,6 +40,8 @@ input {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    display: flex;
+    margin: 0 auto;
 }
 
 .btn-delete {
@@ -36,6 +50,28 @@ input {
     border-color: #CF000F;
 }
 
+.btn-create {
+  color: black;
+  background-color: #CF000F;
+  border-color: #CF000F;
+  display: flex;
+  align-self: flex-start;
+}
+
 .quantity {
   margin: 0 5px;
+}
+
+.wrapper, .wrapper-create{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.btn-create {
+  background-color: white;
+  border-color: black;
+}
+h2{
+  text-align: center;
 }
